@@ -11,6 +11,7 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="1cbe", ATTRS{idProduct}=="00fd", MODE="0666"
 Then
 ```
 sudo udevadm trigger
+sudo apt-get install libusb-1.0.0-dev
 git clone git@github.com:utzig/lm4tools.git
 cd lm4tools
 make
