@@ -12,7 +12,7 @@ Then
 ```
 sudo udevadm trigger
 sudo apt-get install libusb-1.0.0-dev
-git clone git@github.com:utzig/lm4tools.git
+git clone https://github.com/utzig/lm4tools.git
 cd lm4tools
 make
 cd lm4flash
